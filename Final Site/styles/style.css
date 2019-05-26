@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins' , sans-serif;
+	color: #777777;
+	 
+}
+h1,h2,h3,h4,h5,h6{
+	color: #fff;
+	font-family: 'Josefin Sans';
+}
+
+p{
+	color: #fff;
+
+}
+.navbar{
+	background-color: #0b149666; 
+}
+.navbar a h2{
+	color: #fff;
+	font-family: 'Josefin Sans';
+}
+.nav-item{
+	padding-right:20px;
+	font-size: 1em;
+}
+.navbar-toggler-icon{
+	background-color: #fff;
+}
+
+.navbar .brand-navbar img:hover
+{
+    opacity: 0.7;
+}
+.navbar ul li.active > a {
+    color: #15b000;
+    font-weight: bold;
+}
+
+
+/*--home ko vitra--*/
+
+#mar{
+	margin-top: 50px;
+}
+#mar h2{
+	margin-top: 10px;
+}
+#mar p{
+	margin-top: 10px;
+}
+
+#mar img{
+	width: 100%;
+	height: 100%;
+}
+
+/*--footer--*/
+
+footer{
+	background-color: #595d84;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+hr .light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+footer a{
+	color: #d5d5d5;
+}
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+
+#foot img:hover
+{
+    transform: scale(1.1);
+}
+
+/*--arko page ko top pic--*/
+
+#para1{
+	background: url(../images/aboutbanner.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; height: 400px;
+}
+.wtitle{
+	padding-top: 180px;
+
+}
+
+/*--arko page ko top pic--*/
+
+#para2{
+	background: url(../images/servicebanner.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; height:400px;
+}
+.wtitle{
+	padding-top: 180px;
+
+}
+
+/*--arko page ko top pic--*/
+
+#para3{
+	background: url(../images/gallerybanner.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; height:400px;
+}
+.wtitle{
+	padding-top: 180px;
+
+}
+.wtitle h1{
+		color: black;
+		font-weight: bold;
+}
+
+/*--arko page ko top pic--*/
+
+#para4{
+	background: url(../images/contactbanner.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; height:400px;
+}
+.wtitle{
+	padding-top: 180px;
+
+}
+.wtitle h1{
+		color: black;
+		font-weight: bold;
+}
+
+/*--to do ko --*/
+#ttd .row{
+	margin-top: 30px;
+}
+#ttd img{
+	margin-left:10px;
+}
+#ttd p{
+	color: #000;
+	margin-left: 10px;
+}
+#ttd h2{
+	color: #000;
+	margin-left: 10px;
+}
+
+/*--services ko --*/
+#post p{
+	text-align: center;
+	font-size: 25px;
+}
+
+#post img{
+	width: 100%;
+	height: 300px;
+}
+
+#gal img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+#gal img:hover{
+	transform: scale(1.1);
+}
